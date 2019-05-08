@@ -17,6 +17,7 @@ public class Vowels {
         Vowels.RemovevowelsArray();
     }
 
+    //Method to remove vowels from array
     public static void RemovevowelsArray()
     {
         Scanner scan=new Scanner(System.in);

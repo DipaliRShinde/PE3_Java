@@ -1,12 +1,15 @@
+/* Write a program to create a ChessBoard pattern with the help of multidimensional array, where
+WWrepresents white color and BB represents Black color.  */
+
 package com.stackroute.pe3;
 
-import java.util.Arrays;
 public class ChessBoard {
     public static void main(String args[])
     {
         ChessBoard.chessBoard();
     }
 
+    //Method to print chess board
     public static void chessBoard()
     {
         String chess[][]=new String[8][4];

@@ -1,3 +1,6 @@
+/*  Write a program to compute the addition of two matrix, Read the number of rows and columns
+as input, also the values of each matrix   */
+
 package com.stackroute.pe3;
 
 import java.util.Scanner;
@@ -8,6 +11,7 @@ public class AdditionOfMatrix {
         AdditionOfMatrix.matrixAddition();
     }
 
+    //Method to perform Addition of Matrix
     public static void matrixAddition()
     {
         Scanner scan=new Scanner(System.in);
